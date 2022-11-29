@@ -1,4 +1,4 @@
-<!-- This is the solution of TwoSum  -->
+ This is the solution of TwoSum  (LeetCode)
 
  for(int i=0; i<nums.length;i++){<br>
             for(int j=i+1; j<nums.length; j++){<br>
@@ -9,4 +9,4 @@
                 }
             }
         }
-        throw new  IllegalArgumentException("no match found");
+        throw new  IllegalArgumentException("no match found"); (\\ throw is used for unchecked exception)
